@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/Blue Neon Musical Talk Show Twitch Logo (3).png">
+
+    <title>Portafolio s3codecL</title>
+
+</head>
+
+<body>
+
+    
+    <!-- sección inicio-->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1><b>/s3codecL</b></h1>
+
+                    <nav id="nav">
+                        <ul id="links">
+                            <li class="nav-item"><a href="#inicio" class="nav-link js-scroll"  onclick="seleccionar(this)">INICIO</a></li>
+                            <li class="nav-item"><a href="#sobremi" class="nav-link js-scroll" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li class="nav-item"><a href="#servicios" class="nav-link js-scroll" onclick="seleccionar(this)">SERVICIO</a></li>
+                            <li class="nav-item"><a href="#portafolio" class="nav-link js-scroll" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            <li class="nav-item"><a href="#contacto" class="nav-link js-scroll" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+
+                    <!-- Iconos del menu responsive-->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!-- Iconos de las redes sociales-->
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/gandradev/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/s3codecL" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://discord.com/channels/@s3codecl#6353" target="_blank"><i
+                                class="fa-brands fa-discord"></i></a>
+                        <a href="https://www.youtube.com/@s3codecL/" target="_blank"><i
+                                class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+
+            </header>
+
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <b><span>Gustavo Andrade</span></b> Front-end Developer - Full Stack Python Developer</h2>
+                <p class="descripcion">Con experiencia en el área TI, mi superpoder es la resolución de problemas.
+                    <br>Soy excelente organizando y estructurando el trabajo, buscando siempre la mejora continua,
+                    me consideran ágil y capaz de moverme muy rápido para buscar soluciones.
+                </p>
+                <a href="#portafolio">Ir a Portafolio</a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- sección sobre mi-->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="assets/img/sobremi.png" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, soy <span><strong>Gustavo Andrade </strong></span></h2>
+            <h3> Front-end Developer - Full Stack Python Developer</h3>
+            <p>Estudiante de segundo año de Ing en Data Science, tengo gran motivación para seguir perfeccionando
+                habilidades y crecer profesionalmente.
+                <br>Confío plenamente en mi capacidad resolutiva, compromiso, excelente relación con clientes y
+                proactividad que no pasarán desapercibidas, con gran espíritu de desarrollo para nuevos desafíos.
+                <br>Actualmente soy parte del programa Talento Digital Chile (Full Stack Python), además logré concluir
+                +30 cursos y 2 Diplomados:
+                •Diseño y Programación Web •Marketing y Gestión estratégica •Contando con +480 horas de estudio
+                certificadas y 15 proyectos.
+            </p>
+            <a href="assets/attachment/CV.pdf" download="CV.pdf">Descargar CV</a>
+        </div>
+    </section>
+
+    <!--sección servicio-->
+    <section id="servicios">
+        <h3 class="titulo-seccion">Servicios</h3> <!-- mis Competencias -->
+        <div class="fila">
+
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Front-end Developer</h4>
+                <hr>                
+                <p>Html - Css - Js</p>
+                <p>React - Next.js - Typescript - Bootstrap</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Full Stack Python Developer Jr</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p>Python - Django</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Data Analyst</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p>Pl/Sql - Excel - PBI</p>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <!-- sección skills-->
+    <div class="contenedor-skills" id="skills">
+        <h3><b>SKILLS</b></h3>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span><strong>Html & Css Bootstrap</strong></p>
+                <span class="porcentaje"><b>90%</b></span>
+            </div>
+            <div class="barra">
+                <div id="html" class="barra-progreso1"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span><strong>Javascript Typescript</strong></p>
+                <span class="porcentaje"><b>65%</b></span>
+            </div>
+            <div class="barra">
+                <div id="js" class="barra-progreso2"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span><strong>Python Django</strong></p>
+                <span class="porcentaje"><b>80%</b></span>
+            </div>
+            <div class="barra">
+                <div id="py" class="barra-progreso3"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span><strong>Sql Plsql</strong></p>
+                <span class="porcentaje"><b>80%</b></span>
+            </div>
+            <div class="barra">
+                <div id="db" class="barra-progreso4"></div>
+            </div>
+        </div>
+
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span><strong>Excel Power BI</strong></p>
+                <span class="porcentaje"><b>90%</b></span>
+            </div>
+            <div class="barra">
+                <div id="xls" class="barra-progreso5"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span><strong>React Next.js</strong></p>
+                <span class="porcentaje"><b>60%</b></span>
+            </div>
+            <div class="barra">
+                <div id="pbi" class="barra-progreso6"></div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- sección portafolio-->
+    <section id="portafolio">
+        <h3 class="titulo-seccion">Portafolio</h3>
+
+        <div class="fila">
+            <div class="proyecto">
+                <a href="#portafolio">
+                <div class="overlay"></div>
+                <img src="assets/img/proyecto4.jpg" alt="">
+                <div class="info">
+                </a>
+                    <p>Web Design</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page" target="_blank">
+                <div class="overlay"></div>
+                <img src="assets/img/proyecto2.jpg" alt=""> <!-- https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page-->
+                <div class="info">
+                </a>
+                    <p>Technical Documentation</p>                    
+                </div>                
+            </div>
+            <div class="proyecto">
+                <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form" target="_blank">
+                <div class="overlay"></div>
+                <img src="assets/img/proyecto3.jpg" alt=""> <!-- https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form-->
+                <div class="info">
+                </a>
+                    <p>Form</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="fila">
+            <div class="proyecto">
+                <a href="https://s3codecl.github.io/manipulando_dom/" target="_blank">
+                <div class="overlay"></div>
+                <img src="assets/img/proyecto17.jpg" alt=""> <!-- https://s3codecl.github.io/manipulando_dom/-->
+                <div class="info">
+                </a>
+                    <p>Web Design</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <a href="https://s3codecl.github.io/responsividad_mobileFirst/" target="_blank">
+                <div class="overlay"></div>
+                <img src="assets/img/proyecto16.jpg" alt=""> <!-- https://s3codecl.github.io/responsividad_mobileFirst/-->
+                <div class="info">
+                </a>
+                    <p>Web Design</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page" target="_blank">
+                <div class="overlay"></div>
+                <img src="assets/img/proyecto5.jpg" alt=""> <!--  https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page-->
+                <div class="info">
+                </a>
+                    <p>Tribute Page</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="fila">
+            <div class="proyecto">
+                <a href="https://github.com/s3codecL/ejm_digimon" target="_blank">
+                <div class="overlay"></div>
+                <img src="assets/img/proyecto1.jpg" alt=""> <!-- https://github.com/s3codecL/ejm_digimon-->
+                <div class="info">
+                </a>
+                    <p>Web Design</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <a href="https://s3codecl.github.io/enviando_formulario/" target="_blank">
+                <div class="overlay"></div>
+                <img src="assets/img/proyecto6.jpg" alt=""> <!--  https://s3codecl.github.io/enviando_formulario/-->
+                <div class="info">
+                </a>
+                    <p>Form</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <a href="#portafolio">
+                <div class="overlay"></div>
+                <img src="assets/img/proyecto12.jpg" alt="">
+                <div class="info">
+                </a>
+                    <p>Dashboard PBI</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="fila">
+            <div class="proyecto">
+                <a href="https://github.com/s3codecL/airbnb-clone" target="_blank">
+                <div class="overlay"></div>
+                <img src="assets/img/proyecto18.jpg" alt=""> <!-- https://github.com/s3codecL/airbnb-clone-->
+                <div class="info">
+                </a>
+                    <p>Project Page</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <a href="https://s3codecl.github.io/formulario/" target="_blank">
+                <div class="overlay"></div>
+                <img src="assets/img/proyecto15.jpg" alt=""><!-- https://s3codecl.github.io/formulario/-->
+                <div class="info">
+                </a>
+                    <p>Form</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <a href="#portafolio">
+                <div class="overlay"></div>
+                <img src="assets/img/proyecto9.jpg" alt="">
+                <div class="info">
+                </a>
+                    <p>Dashboard PBI</p>
+                </div>
+
+        </div>
+
+    </div>
+
+    <div class="fila">
+        <div class="proyecto">
+            <a href="https://s3codecl.github.io/Datattech/" target="_blank">
+            <div class="overlay"></div>
+            <img src="assets/img/proyecto13.jpg" alt=""> <!-- https://s3codecl.github.io/Datattech/ -->
+            <div class="info">
+            </a>
+                <p>Project Page</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <a href="https://s3codecl.github.io/calculadora2/" target="_blank">
+            <div class="overlay"></div>
+            <img src="assets/img/proyecto14.jpg" alt=""><!-- https://s3codecl.github.io/calculadora2/ -->
+            <div class="info">
+            </a>
+                <p>Web Design</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <a href="#portafolio">
+            <div class="overlay"></div>
+            <img src="assets/img/proyecto8.jpg" alt="">
+            <div class="info">
+            </a>
+                <p>Dashboard Excel</p>
+            </div>            
+
+    </div>
+    
+    </section>
+    
+
+    <!-- sección contacto-->
+    <div class="container">
+        <section id="contacto">
+            <h3 class="titulo-seccion">Contactame</h3>
+            <div class="contenedor-form">
+                <form action="">
+                    <div class="fila-mitad">
+                        <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                        <input type="text" placeholder="Correo" class="input-mitad">
+                    </div>
+                    <div class="fila">
+                        <input type="text" placeholder="Tema..." class="input-full">
+                    </div>
+                    <div class="fila">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje ..."
+                            class="input-full"></textarea>
+                    </div>
+                    <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <!-- sección footer-->
+    <footer>
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>s3codecl</b> - Todos los Derechos Reservados</small>
+        </div>
+        <div>
+            <h2>SIGUEME</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/gandradev/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/s3codecL" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://discord.com/channels/@s3codecl#6353" target="_blank"><i
+                        class="fa-brands fa-discord"></i></a>
+                <a href="https://www.youtube.com/@s3codecL/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="assets/script/script.js"></script>
+
+</body>
+
+</html>
